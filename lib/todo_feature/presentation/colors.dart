@@ -1,6 +1,6 @@
 import 'dart:ui';
 
-class AppColors {
+class TodoColors {
   static const violetOne = Color(0xFF8875FF);
   static const violetTwo = Color(0xFF809CFF);
   static const black = Color(0xFF121212);

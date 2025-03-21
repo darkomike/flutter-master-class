@@ -14,7 +14,7 @@ class Home extends StatelessWidget {
         body: SafeArea(
           child: Center(
             child: Column(
-              mainAxisAlignment: MainAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 TextButton(onPressed: (){
                   AppNavigation.push(context, const TodoSplashScreen());

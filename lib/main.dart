@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_master_class/app/presentation/theme.dart';
+import 'package:flutter_master_class/todo_feature/presentation/theme.dart';
 import 'package:flutter_master_class/app/resources/strings.dart';
 import 'package:flutter_master_class/app/screens/home.dart';
 
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: AppStrings.appName,
       debugShowCheckedModeBanner: false,
-      theme: AppTheme.darkTheme,
+      theme: TodoTheme.darkTheme,
       home: const Home(),
     );
   }

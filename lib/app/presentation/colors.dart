@@ -22,5 +22,6 @@ class AppColors {
 
   //TODO: Add more colors - assignment
 
+  static const yellow = Color(0xFFC9CC41);
 
 }
